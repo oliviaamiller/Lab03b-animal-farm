@@ -6,8 +6,8 @@ const catSound = document.getElementById('meow');
 const catImage = document.getElementById('cat');
 
 
-const horseSound = document.getElementById('neigh');
-const horseImage = document.getElementById('horse');
+const bearSound = document.getElementById('roar');
+const bearImage = document.getElementById('bear');
 
 const whoSpokeLast = document.getElementById('who-spoke');
 
@@ -20,16 +20,16 @@ const whoSpokeLast = document.getElementById('who-spoke');
 
 dogImage.addEventListener('click', () => {
     dogSound.play();
-    whoSpokeLast.textContent = 'Dog Barked';
+    whoSpokeLast.textContent = 'the Dog Barked';
 });
 
 catImage.addEventListener('click', () => {
     catSound.play();
-    whoSpokeLast.textContent = 'Cat Meowed';
+    whoSpokeLast.textContent = 'the Cat Meowed';
 
 });
 
-horseImage.addEventListener('click', () => {
-    horseSound.play();
-    whoSpokeLast.textContent = 'Horse Neighed';
+bearImage.addEventListener('click', () => {
+    bearSound.play();
+    whoSpokeLast.textContent = 'the Bear Roared';
 });
