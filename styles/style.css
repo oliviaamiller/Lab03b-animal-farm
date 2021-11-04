@@ -30,6 +30,14 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
+.images {
+    height: 25%px;
+    width: 25%;
+    display: grid;
+    justify-content: space-between;
+
+}
+
 section {
     background-color: var(--color5);
     width: 1000px;
